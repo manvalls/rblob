@@ -1,6 +1,6 @@
 {
   "name": "rblob",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A unified representation of a possibly remote file-like resource",
   "main": "main.js",
   "dependencies": {
