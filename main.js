@@ -10,6 +10,8 @@ class RBlob extends Target{
 
   constructor(conn,sz = 0,md = {}){
 
+    super(emitter);
+
     if(conn){
 
       if(global.Blob && conn instanceof global.Blob){
@@ -17,11 +19,10 @@ class RBlob extends Target{
         return new BrowserBlob(conn);
       }
 
-      super(emitter);
       this[connection] = conn.lock();
       conn.until('detached').listen(this.detach,[],this);
 
-    }else super(emitter);
+    }
 
     this[size] = sz;
     this[metadata] = md;
