@@ -1,0 +1,26 @@
+{
+  "name": "rblob",
+  "version": "1.0.0",
+  "description": "A unified representation of a possibly remote file-like resource",
+  "main": "main.js",
+  "dependencies": {
+    "y-emitter": "^12.4.2",
+    "y-resolver": "^9.2.2"
+  },
+  "devDependencies": {
+    "ebjs": "^6.22.2",
+    "u-test": "^3.7.5"
+  },
+  "scripts": {
+    "test": "u-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/manvalls/rblob.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manvalls/rblob/issues"
+  },
+  "author": "Manuel Valls Fernández <manolo@vlrz.es>",
+  "license": "LGPL-3.0"
+}
