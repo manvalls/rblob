@@ -1,8 +1,7 @@
 var t = require('u-test'),
     assert = require('assert'),
     Connection = require('ebjs/connection'),
-    label = require('ebjs/label'),
-    labels = require('ebjs/definitions/labels'),
+    label = Symbol.for('ebjs/label'),
     RBlob = require('../main.js');
 
 function dac(arr,str){
