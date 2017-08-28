@@ -4,12 +4,12 @@
   "description": "A unified representation of a possibly remote file-like resource",
   "main": "main.js",
   "dependencies": {
-    "y-emitter": "^12.4.2",
-    "y-resolver": "^9.2.2"
+    "y-emitter": "^13.0.2",
+    "y-resolver": "^11.0.1"
   },
   "devDependencies": {
-    "ebjs": "^6.22.2",
-    "u-test": "^3.7.5"
+    "ebjs": "^6.23.6",
+    "u-test": "^3.8.11"
   },
   "scripts": {
     "test": "u-test"

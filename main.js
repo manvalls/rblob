@@ -62,7 +62,7 @@ class RBlob extends Target{
     this[emitter].set('detached');
   }
 
-  get ['3asKNsYzcdGduft'](){ return 35; }
+  get [Symbol.for('ebjs/label')](){ return 35; }
 
 }
 
